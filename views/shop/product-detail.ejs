@@ -3,7 +3,6 @@
 
     <body>
         <%- include('../includes/navigation.ejs') %>
-
         <main>
             <div class="grid">
             <article class="card product-item">
@@ -24,8 +23,9 @@
                     </p>
                 </div>
                 <div class="card__actions">
-                    <form action="/add-to-cart" method="POST">
+                    <form action="/cart" method="POST">
                         <button class="btn">Add to Cart</button>
+                        <input type="hidden" name="productId" value="<%= product.id %>">
                     </form>
                 </div>
             </article>
