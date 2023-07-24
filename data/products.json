@@ -1,0 +1,16 @@
+[
+  {
+    "title": "A Camera",
+    "imageUrl": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
+    "description": "This is an awesome Camera!",
+    "price": "19",
+    "id": "111"
+  },
+  {
+    "title": "A Shoe",
+    "imageUrl": "https://img1a.flixcart.com/fk-sp-static/21072015/blue-24744-yepme-8-400x400-imadqtjww8cwpthg.jpeg",
+    "description": "This is an awesome Shoe!",
+    "price": "53",
+    "id": "0.7364777090317096"
+  }
+]
